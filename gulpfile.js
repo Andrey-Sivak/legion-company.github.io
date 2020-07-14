@@ -53,6 +53,11 @@ function scripts() {
 		.pipe(browserSync.stream());
 }
 
+function libs() {
+	return gulp.src('app/libs/*.js')
+		.pipe(gulp.dest('dist/js'))
+}
+
 function img() {
 	return gulp.src('./app/img/**/**/**/*')
 		.pipe(imagemin([
@@ -96,7 +101,7 @@ gulp.task('watch', watch);
 gulp.task('img', img);
 
 let build = gulp.series(clean,
-												gulp.parallel(styles, scripts, img, svg, html, fonts)	
+												gulp.parallel(styles, scripts, libs, img, svg, html, fonts)
 										);
 
 gulp.task('build', build);
