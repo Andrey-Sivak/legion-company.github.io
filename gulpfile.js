@@ -33,7 +33,7 @@ function fonts() {
 
 function styles() {
 	return gulp.src('./app/css/**/*.css')
-		.pipe(concat('all.css'))
+		.pipe(concat('all1.0.css'))
 		.pipe(autoprefixer({
      	
      	overrideBrowserslist: ['> 0.01%'],
