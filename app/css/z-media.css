@@ -1,0 +1,226 @@
+@media(max-width: 1000px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header {
+        padding: 20px 0 35px;
+    }
+    .header_header__logo-bold_text {
+        font-size: 30px;
+    }
+    .header_header__logo-text,
+    .header_header__phone-note {
+        font-size: 15px;
+    }
+    .header_header__phone-number {
+        font-size: 20px;
+    }
+    .header_body {
+        margin-top: 45px;
+    }
+    .header_caption-bold {
+        font-size: 55px;
+    }
+    .header_caption {
+        font-size: 27px;
+        margin-bottom: 50px;
+    }
+    .header_btn {
+        font-size: 15px;
+        width: 250px;
+        padding: 20px 0;
+    }
+    .header_mes {
+        top: 280px;
+        max-width: 250px;
+        padding: 0 15px 15px;
+        font-size: 17px;
+        right: 130px;
+    }
+    .header_mes:before {
+        top: -15px;
+        right: -200px;
+    }
+
+    .first-sec {
+        padding-top: 50px;
+    }
+    .problems {
+        padding: 0;
+        margin-top: 25px;
+    }
+    .warn-help {
+        padding: 0;
+    }
+    .why-we {
+        justify-content: space-around;
+    }
+    .reason {
+        max-width: 40%;
+        margin-bottom: 35px;
+    }
+    .four-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .docs {
+        margin-top: 30px;
+    }
+    .docs_item {
+        max-width: 30%;
+    }
+    .doc_img {
+        width: 100%;
+    }
+
+    .five-sec {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .person-cards {
+        justify-content: space-around;
+    }
+    .person-card {
+        max-width: 35%;
+        margin-bottom: 35px;
+    }
+
+    .form {
+        right: 20px;
+    }
+}
+@media(max-width: 765px) {
+    .header {
+        background-image: unset;
+        background-color: rgba(0,0,0,.05);
+    }
+    .header_header {
+        flex-direction: column;
+    }
+    .header_header__logo-wrap {
+        margin-bottom: 20px;
+    }
+    .header_header__logo-text {
+        max-width: 125px;
+    }
+    .header_header__logo-img {
+        width: 50px;
+    }
+    .header_header__phone {
+        background-image: unset;
+        padding: 0;
+        text-align: center;
+    }
+    .header_caption-bold {
+        font-size: 25px;
+    }
+    .header_caption {
+        font-size: 19px;
+        text-align: center;
+        max-width: unset;
+    }
+    .header_mes {
+        display: none;
+    }
+    .header_btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header_btn-note {
+        text-align: center;
+        font-size: 13px;
+        max-width: 70vw;
+        margin: 0 auto;
+    }
+    .section-caption {
+        font-size: 18px;
+    }
+    .problem {
+        max-width: 100%;
+        font-size: 14px;
+        margin-bottom: 15px;
+        font-weight: normal;
+    }
+
+    .warn {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .warn_text {
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+    .warn-help .warn_text {
+        text-align: center;
+    }
+    .warn_text-btn {
+        order: 2;
+        margin: 0 auto 20px;
+        padding: 20px 0;
+    }
+    .warn-help {
+        flex-direction: column;
+    }
+
+    .why-we {
+        margin-top: 25px;
+    }
+    .reason {
+        padding-top: 50px;
+        background-size: 40px;
+        max-width: 100%;
+    }
+
+    .four-section_descript {
+        font-size: 16px;
+    }
+    .docs {
+        font-size: 12px;
+        text-transform: unset;
+    }
+    .docs_item {
+        margin-bottom: 25px;
+    }
+    .doc_img {
+        box-shadow: 0 0 15px #000;
+        margin-bottom: 10px;
+    }
+    .four-section,
+    .second-sec,
+    .first-sec,
+    .five-sec {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .person-card {
+        padding: 10px;
+        max-width: 250px;
+    }
+    .person_img {
+        padding: 0;
+        width: 50%;
+    }
+    .person_name {
+        font-size: 14px;
+    }
+    .person_pos {
+        font-size: 12px;
+    }
+
+    .form {
+        position: static;
+        transform: unset;
+        margin: 0 auto 30px;
+    }
+}
+@media(max-width: 374px) {
+    .docs {
+        justify-content: center;
+    }
+    .docs_item {
+        max-width: 65%;
+    }
+}
