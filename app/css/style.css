@@ -333,6 +333,7 @@ body {
     position: relative;
 }
 .form {
+    z-index: 1;
     position: absolute;
     top: 50%;
     right: calc(((100% - 980px) / 2) + 35px);
